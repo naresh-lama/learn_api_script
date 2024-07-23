@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <section class="container-sect">
+            <h1 class="container-sect__ttl"><span class="container-sect__span"></span> Weather App</h1>
+            <div class="container-box">
+                <input type="text" class="city__input">
+                <button class="search__btn">SEARCH</button>
+            </div>
+            <ul class="weather-list">
+                <li class="weather-list__item">
+                    <section class="weather-sect">
+                        <h2 class="weather-sect__ttl">TEMPRETURE</h2>
+                        <img src="./img/tempreture.svg" width="50px" height="50px" alt="" class="weather-sect__img">
+                        <p class="weather-sect__temp"></p>
+                    </section>
+                </li>
+                <li class="weather-list__item">
+                    <section class="weather-sect">
+                        <h2 class="weather-sect__ttl">HUMIDITY</h2>
+                        <img src="./img/humidity.svg" width="50px" height="50px" alt="" class="weather-sect__img">
+                        <p class="weather-sect__humi"></p>
+                    </section>
+                </li>
+                <li class="weather-list__item">
+                    <section class="weather-sect">
+                        <h2 class="weather-sect__ttl">LATITUDE</h2>
+                        <img src="./img/latitude.svg" width="50px" height="50px" alt="" class="weather-sect__img">
+                        <p class="weather-sect__lati"></p>
+                    </section>
+                </li>
+                <li class="weather-list__item">
+                    <section class="weather-sect">
+                        <h2 class="weather-sect__ttl">LONGITUDE</h2>
+                        <img src="./img/longitude.svg" width="50px" height="50px" alt="" class="weather-sect__img">
+                        <p class="weather-sect__long"></p>
+                    </section>
+                </li>
+            </ul>
+        </section>
+    </div>
+  </body>
+  <script src="./js/script.js"></script>
+</html>
